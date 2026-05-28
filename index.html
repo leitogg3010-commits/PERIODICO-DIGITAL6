@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trend World</title>
+
+<link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<div class="musica">
+
+<audio id="musica" autoplay controls loop>
+
+<source src="musica.mp3" type="audio/mp3">
+
+</audio>
+
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+<h1>🌎 TREND WORLD</h1>
+
+<p>
+
+Noticias, entretenimiento y tendencias mundiales
+
+</p>
+
+</header>
+
+<!-- MENU -->
+
+<nav>
+
+<div class="menu-icon" onclick="mostrarMenu()">
+
+<div class="linea"></div>
+
+<div class="linea"></div>
+
+<div class="linea"></div>
+
+</div>
+
+<ul id="menu">
+
+<li><a href="index.html">🏠 Inicio</a></li>
+
+<li><a href="deportes.html">⚽ Deportes</a></li>
+
+<li><a href="moda.html">👗 Moda</a></li>
+
+<li><a href="comida.html">🍔 Comida</a></li>
+
+<li><a href="tecnologia.html">💻 Tecnología</a></li>
+
+<li><a href="musica.html">🎵 Música</a></li>
+
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h2>
+
+🔥 Lo más viral del momento
+
+</h2>
+
+<p>
+
+La inteligencia artificial,
+la música y los deportes
+dominan las tendencias mundiales.
+
+</p>
+
+<button>
+
+Explorar noticias
+
+</button>
+
+</section>
+
+<!-- TARJETAS -->
+
+<section class="contenedor">
+
+<article>
+
+<h3>⚽ Deportes</h3>
+
+<div class="icono">⚽</div>
+
+<p>
+
+Historia del fútbol,
+NBA, boxeo y noticias recientes.
+
+</p>
+
+<button onclick="window.location.href='deportes.html'">
+
+Leer más
+
+</button>
+
+</article>
+
+<article>
+
+<h3>👗 Moda</h3>
+
+<div class="icono">👕</div>
+
+<p>
+
+Moda actual,
+ropa urbana y tendencias antiguas.
+
+</p>
+
+<button onclick="window.location.href='moda.html'">
+
+Leer más
+
+</button>
+
+</article>
+
+<article>
+
+<h3>🍔 Comida</h3>
+
+<div class="icono">🍔</div>
+
+<p>
+
+Comida mexicana,
+postres y gastronomía mundial.
+
+</p>
+
+<button onclick="window.location.href='comida.html'">
+
+Leer más
+
+</button>
+
+</article>
+
+<article>
+
+<h3>💻 Tecnología</h3>
+
+<div class="icono">💻</div>
+
+<p>
+
+IA, celulares,
+videojuegos y computadoras.
+
+</p>
+
+<button onclick="window.location.href='tecnologia.html'">
+
+Leer más
+
+</button>
+
+</article>
+
+<article>
+
+<h3>🎵 Música</h3>
+
+<div class="icono">🎧</div>
+
+<p>
+
+Historia musical,
+artistas famosos y conciertos.
+
+</p>
+
+<button onclick="window.location.href='musica.html'">
+
+Leer más
+
+</button>
+
+</article>
+
+</section>
+
+<!-- ACTIVIDAD -->
+
+<section class="actividad">
+
+<h2>
+
+🎮 ¿Qué tema te interesa más?
+
+</h2>
+
+<button onclick="tema('⚽ Deportes')">
+
+Deportes
+
+</button>
+
+<button onclick="tema('👗 Moda')">
+
+Moda
+
+</button>
+
+<button onclick="tema('🍔 Comida')">
+
+Comida
+
+</button>
+
+<button onclick="tema('💻 Tecnología')">
+
+Tecnología
+
+</button>
+
+<button onclick="tema('🎵 Música')">
+
+Música
+
+</button>
+
+<p id="respuesta"></p>
+
+</section>
+
+<footer>
+
+<p>
+
+📱 Instagram | TikTok | YouTube | Facebook
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
